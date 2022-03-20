@@ -3,11 +3,11 @@ const modules = require('./script.js');
 describe('stringLength', () => {
 
     test('returns the string length', () => {
-        const string = 'test';
+        const string = 'tests';
 
         const length = modules.stringLength(string);
 
-        expect(length).toEqual(4);
+        expect(length).toEqual(5);
     });
 
     test('string length less than 1', () => {
